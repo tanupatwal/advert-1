@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 import { Box, Eye } from 'lucide-react';
 import Card from './ui/Card';
 import ModelViewer from './ModelViewer';
-// import PlacementBoxControls from '../hooks/PlacementBoxControls';
+import PlacementBoxControls from '../hooks/PlacementBoxControls';
 
 // src/components/Dashboard.jsx
-import PlacementBoxControls from './PlacementBoxControls';  // Correct path
+// import PlacementBoxControls from './PlacementBoxControls';  // Correct path
 
 
 const Dashboard = () => {
